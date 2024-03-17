@@ -22,4 +22,5 @@ from deploy import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/test/', views.test),
+    path('api/v1/product_list/', views.product_list_view),
 ]
